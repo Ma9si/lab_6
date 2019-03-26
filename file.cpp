@@ -42,6 +42,14 @@ float sub(x,y)
 	b=x-y;
 	return b;
 }
+float multiply(x,y)
+{ c=x*y;
+	return c;
+}
+float divide(x,y)
+{d=x%y;
+	return d;
+}
 
 
 
