@@ -2,7 +2,7 @@
 using namespace std;
 class operations
 {
-	float a,b;
+	float a,b,c,d;
 	public:
 	float add(x,y);
 	float sub(x,y);
@@ -32,5 +32,16 @@ int main()
 		break;
 	}
 }
+float add(x,y)
+{
+	a=x+y;
+	return a;
+}
+float sub(x,y)
+{
+	b=x-y;
+	return b;
+}
+
 
 
